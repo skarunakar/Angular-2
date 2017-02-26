@@ -1,0 +1,44 @@
+.ang-poc {
+    display: flex;
+    flex-direction: row;
+    height: 100VH;
+}
+.body {
+    overflow-y: scroll;
+}
+.nav-bar {
+    min-width: 175px;
+    background-color: #193048;
+    box-shadow: inset -3px 0 rgba(0,0,0,0.15);
+    height: inherit;
+    overflow: auto;
+}
+.nav-menu {
+    padding: 0px;
+}
+.nav-item {
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.menu-title{
+    margin: 5px;
+}
+
+
+
+table{
+    border:1px solid green;
+}
+
+td {
+    border:1px solid green;
+}
+th{
+    border:1px solid green;
+}
