@@ -14,10 +14,9 @@ export class DataService {
 
     constructor(private _http: Http) { }
 
-    getProduct(id: number):Observable<IRecord>  {
-        console.log(id);
+    getProduct(id: number):Observable<IRecord[]>  {
         return this._http.get(this._productUrl+id)
-            .map((response: Response) => <IRecord> response.json())
+            .map((response: Response) => <IRecord[]> response.json())
     }
 }
 

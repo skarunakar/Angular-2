@@ -25,20 +25,48 @@
     font-size: 100%;
     cursor: pointer;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+    margin-left: 50px;
+}
+.renderData{
+    border:2px solid blue;
+    padding: 10px;
+}
+.displayStat{
+    border: 2px dashed red;
+    margin-top : 150px;
+    margin-left:50px;
+    height:150px;
+    width:300px;
+    padding: 10px;
+}
+.update-button {
+    margin-left:100px;
+    margin-top : 100px;
+}
 
 .menu-title{
     margin: 5px;
 }
 
-
+.stat-head{
+    font-weight: 500;
+    padding-left:60px;
+}
 
 table{
     border:1px solid green;
+    padding:2px;
 }
 
 td {
     border:1px solid green;
+    padding:12px;
 }
 th{
     border:1px solid green;
+    padding:12px;
 }

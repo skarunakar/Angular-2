@@ -20,7 +20,6 @@ var DataService = (function () {
         this._productUrl = 'http://localhost:8000?dataSet=';
     }
     DataService.prototype.getProduct = function (id) {
-        console.log(id);
         return this._http.get(this._productUrl + id)
             .map(function (response) { return response.json(); });
     };
